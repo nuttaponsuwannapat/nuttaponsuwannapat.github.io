@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav {
+    padding: 1rem;
+    background-color: black;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: goldenrod;
+    text-decoration: none;
+}
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.banner-con {
+    display: flex;
+    background-color: goldenrod;
+}
+
+.banner-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+.banner-info h3 {
+    font-size: 2rem;
+}
+
+.banner-info p {
+    font-size: 1rem 0;
+}
+
+.banner-img img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap : 2rem;
+}
+
+.blog-title{
+    margin: 2rem 0;
+}
+
+.blog-item img {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.blog-item p{
+    margin: 1ram 0;
+}
+
+.blog-item h4{
+    margin-top: 1rem;
+}
+
+
+.footer-top{
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+}
+
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date{
+    background-color: goldenrod;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h4,
+.footer-top-item:nth-child(3) h4{
+    margin-bottom: 1rem;
+}
+.footer-bottom{
+    background-color: goldenrod;
+    padding: 1rem;
+    text-align: right;
+
+}
